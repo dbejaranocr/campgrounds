@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(https://res.cloudinary.com/dbejaranocr/image/upload/v1644547047/YelpCamp/qdjvv4hdbi5zl0rozjed.jpg);
+    background-size: cover;
+    background-position: 25% bottom;
+    box-shadow: insert 0 0 5rem rgba(0, 0, 0, 0.5);
+} 
+.cover-container {
+    max-width: 60vh;
+}
+.nav-link{
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+}
+.nav-link{
+    color: white;
+    border-bottom-color: white;
+}
+.nav-link:hover{
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-secondary,btn-secondary:hover{
+    color: #333;
+    text-shadow: none;
+    
+}
